@@ -1,7 +1,13 @@
-#main {
-  border: 1px dashed gray;
+.container {
   width: 300px;
-  margin: 0 auto;  
+  padding: 30px;
+}
+
+#countdown {
   text-align: center;
-    font-size: 70px;
-  }
+  font-size: 70px;
+}
+
+.center {
+  margin-left: 30%;
+}
