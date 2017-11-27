@@ -1,5 +1,5 @@
-let min = 2 - 1;  // 01:59 is the strat point for 2 minutes, so give -1 for the minute
-let sec = 60;
+let min = 1 - 1;  // 01:59 is the strat point for 2 minutes, so give -1 for the minute
+let sec = 5;
 
 let loop = setInterval(function() {
 
@@ -20,11 +20,10 @@ let loop = setInterval(function() {
     $("#main").html(`${minute} : ${second}`) 
 
     // cancal the time interval when the min & sec 0
-    if (min == 0 && sec == 0) {
+    if (min == -1) {
         // at the and write "the end"
-        if (minToCountDown < 0) {
-            clearInterval(loop);
+        clearInterval(loop);
             $("#main").html("The End");
-        }
     }
 }, 1000);
+
