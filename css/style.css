@@ -1,4 +1,7 @@
 #main {
-    text-align: center;
+  border: 1px dashed gray;
+  width: 300px;
+  margin: 0 auto;  
+  text-align: center;
     font-size: 70px;
   }
