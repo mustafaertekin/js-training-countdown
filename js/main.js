@@ -1,5 +1,5 @@
-let min = 1 - 1;  // 01:59 is the strat point for 2 minutes, so give -1 for the minute
-let sec = 5;
+let min = 2 - 1;  // 01:59 is the strat point for 2 minutes, so give -1 for the minute
+let sec = 60;
 
 let loop = setInterval(function() {
 
